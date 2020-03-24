@@ -1769,6 +1769,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
+			opacity: 75%
 		}
 
 		.image.left {
@@ -2244,6 +2245,7 @@ input, select, textarea {
 			#main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/lukasz-lada-LtWFFVi1RXQ-unsplash (1).jpg");
+				opacity: 75%
 			}
 
 			#main > section.two {
