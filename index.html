@@ -56,7 +56,7 @@
 			<div id="main">
 
 				<!-- Intro -->
-					<section id="top" class="one dark cover">
+					<section id="top" class="one dark cover" tabindex="0">
 						<div class="container">
 							<header>
 								<h2 class="alt">
@@ -74,7 +74,7 @@
 					</section>
 
 				<!-- Portfolio -->
-					<section id="portfolio" class="two">
+					<section id="portfolio" class="two" tabindex="0">
 						<div class="container">
 
 							<header>
@@ -84,8 +84,17 @@
 							<p>Recent Projects</p>
 
 							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
+									<div class="col-4 col-12-mobile">
+											<article class="item" tabindex="0">
+												<a href="https://csg-heraldry-register.herokuapp.com/" class="image fit" target="_blank"><img src="images/heraldry_screenshot.png" alt="" /></a>
+												<header>
+													<h3>Chicago Swordplay Guild Heraldry</h3>
+													<p>Github: <a href="https://github.com/slaloggia/csg_heraldry_register" target="_blank">Front-end</a> | <a href="https://github.com/slaloggia/csg_heraldry_api">Back-end</a></p>
+												</header>
+											</article>
+										</div>
+										<div class="col-4 col-12-mobile">
+									<article class="item" tabindex="0">
 										<a href="https://good-shows.herokuapp.com/" class="image fit" target="_blank"><img src="images/goodshows_screenshot.png" alt="" /></a>
 										<header>
 											<h3>GoodShows!</h3>
@@ -93,7 +102,7 @@
 										</header>
 									</article>
 								</div>
-								<div class="col-4 col-12-mobile">
+								<div class="col-4 col-12-mobile" tabindex="0">
 									<article class="item">
 										<iframe class="image fit"  src="https://www.youtube.com/embed/TYiXMwwtYAI" frameborder="0" allow="accelerometer; encrypted-media; gyroscope" allowfullscreen></iframe>
 										<header>
@@ -104,7 +113,7 @@
 										</header>
 									</article>
 								</div>
-								<div class="col-4 col-12-mobile">
+								<div class="col-4 col-12-mobile" tabindex="0">
 									<article class="item">
 										<iframe class="image fit"  src="https://www.youtube.com/embed/9EmvxhO9qHQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 										<header>
@@ -121,16 +130,16 @@
 					</section>
 
 				<!-- About Me -->
-					<section id="about" class="three">
+					<section id="about" class="three" tabindex="0">
 						<div class="container">
 
 							<header>
-								<h2>About Me</h2>
+								<h2 tabindex="0">About Me</h2>
 							</header>
 
-							<img class="image featured" src="images/lukasz-lada-1Bpk4k6Im8E-unsplash.jpg" style= alt="" />
+							<img class="image featured" src="images/lukasz-lada-1Bpk4k6Im8E-unsplash.jpg" alt="" />
 
-							<p>
+							<p tabindex="0">
 								I used to be a circus performer, but my passion for problem-solving led me to coding.
 								Happy working independently or collaborating with a team. Experienced in Object-Oriented Programming
 								with Ruby and JavaScript, including frameworks such as Rails and React. 
@@ -142,21 +151,21 @@
 					</section>
 
 				<!-- Contact -->
-					<section id="contact" class="four">
+					<section id="contact" class="four" tabindex="0">
 						<div class="container">
 
 							<header>
 								<h2>Contact</h2>
 							</header>
 
-							<p>I am currently available for Junior Developer positions in the Chicagoland area. Contact me to talk about how I can make things that work for you!</p>
+							<p tabindex="0">I am currently available for Junior Developer positions in the Chicagoland area. Contact me to talk about how I can make things that work for you!</p>
 
-							<form method="post" action="mailto:sarah.laloggia@gmail.com" name="Portfolio Email">
+							<form method="post" action="mailto:sarah.laloggia@gmail.com" name="Portfolio Email" tabindex="0">
 								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" tabindex="0"/></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" tabindex="0"/></div>
 									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
+										<textarea name="message" placeholder="Message" tabindex="0"></textarea>
 									</div>
 									<div class="col-12">
 										<input type="submit" value="Send Message" />
